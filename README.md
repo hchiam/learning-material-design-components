@@ -10,14 +10,26 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## Local dev notes
 
-See [Getting Started](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md) steps. CDN and NPM options available. Good to know: `mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));`
+This is a great walk-through tutorial of install/setup steps: [Getting Started](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md). Helpful things of point out:
 
-[Components listed as npm packages](https://github.com/material-components/material-components-web/tree/master/packages), for example: [mcd-button](https://github.com/material-components/material-components-web/tree/master/packages/mdc-button).
+- CDN and NPM options available.
+- You can make webpack automatically open the (correct) localhost port in the browser:
+
+  ```js
+  devServer: {
+    open: true;
+  }
+  ```
+
+- `mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));`
+- There's an [appendix](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md#appendix-configuring-a-sass-importer-for-nested-node_modules) on what to do if you have nested `node_modules` folders caused by deps on conflicting versions of individual MDC Web packages. But actually, [this fix might be broken too](https://github.com/material-components/material-components-web/issues/5135).
+
+Using this repo:
 
 ```bash
 npm install
-npx webpack
-open index.html
+npm run build # just once
+npm start # custom config has it automatically open localhost
 ```
 
 [Intro video](https://www.youtube.com/watch?v=ckCe0xZv3Co).

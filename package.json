@@ -3,22 +3,10 @@
   "version": "1.0.0",
   "description": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
   "main": "index.js",
-  "dependencies": {
-    "@material/button": "^6.0.0",
-    "@material/textfield": "^6.0.0",
-    "sass": "^1.26.5"
-  },
-  "devDependencies": {
-    "css-loader": "^3.5.3",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
-  },
   "scripts": {
-    "sass": "sass style.scss style.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "go": "npm run build; npm start",
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -29,5 +17,25 @@
   "bugs": {
     "url": "https://github.com/hchiam/learning-material-design-components/issues"
   },
-  "homepage": "https://github.com/hchiam/learning-material-design-components#readme"
+  "homepage": "https://github.com/hchiam/learning-material-design-components#readme",
+  "dependencies": {
+    "@material/button": "^6.0.0",
+    "@material/ripple": "^6.0.0",
+    "material-components-web": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "extract-loader": "^5.0.1",
+    "file-loader": "^6.0.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
 }

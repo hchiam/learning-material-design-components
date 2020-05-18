@@ -1,0 +1,13 @@
+@use '@material/button/mdc-button';
+@use '@material/button';
+
+body {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+.foo-button {
+  @include button.container-fill-color(lightblue);
+  span {
+    color: black;
+  }
+}
