@@ -2,6 +2,16 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+<https://github.com/material-components/material-components-web>
+
+## CodePen quick start demo
+
+<https://codepen.io/hchiam/pen/YzyRrwQ>
+
+## Local dev notes
+
+See [Getting Started](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md) steps.
+
 [Components listed as npm packages](https://github.com/material-components/material-components-web/tree/master/packages), for example: [mcd-button](https://github.com/material-components/material-components-web/tree/master/packages/mdc-button).
 
 ```bash
@@ -13,10 +23,6 @@ open index.html
 [Intro video](https://www.youtube.com/watch?v=ckCe0xZv3Co).
 
 Use [SCSS](https://github.com/hchiam/learning-sass) for easier theming.
-
-## CodePen demo
-
-<https://codepen.io/hchiam/pen/NWGEgPW>
 
 ## Gallery
 
