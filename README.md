@@ -10,7 +10,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## Local dev notes
 
-See [Getting Started](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md) steps.
+See [Getting Started](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md) steps. CDN and NPM options available. Good to know: `mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));`
 
 [Components listed as npm packages](https://github.com/material-components/material-components-web/tree/master/packages), for example: [mcd-button](https://github.com/material-components/material-components-web/tree/master/packages/mdc-button).
 
