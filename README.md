@@ -8,11 +8,17 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 <https://codepen.io/hchiam/pen/YzyRrwQ>
 
-## Local dev notes
+## Quick start demo using this repo (batteries included)
 
-This is a great walk-through tutorial of install/setup steps: [Getting Started](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md). Helpful things of point out:
+```bash
+npm install
+npm run build # just once
+npm start # custom config has it automatically open localhost
+```
 
-- CDN and NPM options available.
+This repo is based on a great walk-through tutorial of install/setup steps: [Getting Started](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md). Read it for details, but here are helpful things I'd like to point out (or remind myself):
+
+- Both CDN and NPM options are available.
 - You can make webpack automatically open the (correct) localhost port in the browser:
 
   ```js
@@ -23,16 +29,7 @@ This is a great walk-through tutorial of install/setup steps: [Getting Started](
 
 - `mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));`
 - There's an [appendix](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md#appendix-configuring-a-sass-importer-for-nested-node_modules) on what to do if you have nested `node_modules` folders caused by deps on conflicting versions of individual MDC Web packages. But actually, [this fix might be broken too](https://github.com/material-components/material-components-web/issues/5135).
-
-Using this repo:
-
-```bash
-npm install
-npm run build # just once
-npm start # custom config has it automatically open localhost
-```
-
-`webpack-dev-server` gives us live reloading (i.e. automatically reloads the page when you save a source file that's already watched by webpack).
+- `webpack-dev-server` gives us live reloading (i.e. automatically reloads the page when you save a source file that's already watched by webpack).
 
 [Intro video](https://www.youtube.com/watch?v=ckCe0xZv3Co).
 
