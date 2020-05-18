@@ -11,7 +11,13 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 ## Quick start demo using this repo (batteries included)
 
 ```bash
-npm install
+npm install; npm run go
+```
+
+or
+
+```bash
+npm install # just once
 npm run build # just once
 npm start # custom config has it automatically open localhost
 ```
