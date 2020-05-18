@@ -5,7 +5,9 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 [Components listed as npm packages](https://github.com/material-components/material-components-web/tree/master/packages), for example: [mcd-button](https://github.com/material-components/material-components-web/tree/master/packages/mdc-button).
 
 ```bash
-npm install @material/textfield @material/button
+npm install
+npx webpack
+open index.html
 ```
 
 [Intro video](https://www.youtube.com/watch?v=ckCe0xZv3Co).
