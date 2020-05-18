@@ -8,7 +8,10 @@
     "@material/textfield": "^6.0.0",
     "sass": "^1.26.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
   "scripts": {
     "sass": "sass style.scss style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
