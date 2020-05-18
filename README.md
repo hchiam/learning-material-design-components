@@ -18,6 +18,7 @@ npm start # custom config has it automatically open localhost
 
 This repo is based on a great walk-through tutorial of install/setup steps: [Getting Started](https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md). Read it for details, but here are helpful things I'd like to point out (or remind myself):
 
+- [`package.json` deps](https://github.com/hchiam/learning-material-design-components/blob/master/package.json) and [`webpack.config.js` options](https://github.com/hchiam/learning-material-design-components/blob/master/webpack.config.js)
 - Both CDN and NPM options are available.
 - You can make webpack automatically open the (correct) localhost port in the browser:
 
