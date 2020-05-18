@@ -1,0 +1,26 @@
+{
+  "name": "learning-material-design-components",
+  "version": "1.0.0",
+  "description": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+  "main": "index.js",
+  "dependencies": {
+    "@material/button": "^6.0.0",
+    "@material/textfield": "^6.0.0",
+    "sass": "^1.26.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hchiam/learning-material-design-components.git"
+  },
+  "author": "hchiam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hchiam/learning-material-design-components/issues"
+  },
+  "homepage": "https://github.com/hchiam/learning-material-design-components#readme"
+}
