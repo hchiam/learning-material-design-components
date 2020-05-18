@@ -32,6 +32,8 @@ npm run build # just once
 npm start # custom config has it automatically open localhost
 ```
 
+`webpack-dev-server` gives us live reloading (i.e. automatically reloads the page when you save a source file that's already watched by webpack).
+
 [Intro video](https://www.youtube.com/watch?v=ckCe0xZv3Co).
 
 Use [SCSS](https://github.com/hchiam/learning-sass) for easier theming.
