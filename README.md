@@ -14,6 +14,10 @@ open index.html
 
 Use [SCSS](https://github.com/hchiam/learning-sass) for easier theming.
 
+## CodePen demo
+
+<https://codepen.io/hchiam/pen/NWGEgPW>
+
 ## Gallery
 
 Intro: <https://www.youtube.com/watch?v=vATjngAPc7Q>
